@@ -7,7 +7,8 @@
 			var useDeepThought = false;
 			var answer = CalculateTheAnswerToTheUltimateQuestion(useDeepThought);
 
-			//Verbose null checking. Of course we could do if(answer != null) but I think that is not as to the point as the second method below.
+			// Verbose null checking. Of course we could do if(answer != null) 
+			// but I think that is not as to the point as the second method below.
 			if (answer == null)
 			{
 				System.Console.WriteLine($"Sorry the answer could´t be calculated. Return value was null");
