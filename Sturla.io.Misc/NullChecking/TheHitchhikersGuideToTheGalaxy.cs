@@ -2,7 +2,7 @@
 {
 	public class TheHitchhikersGuideToTheGalaxy
 	{
-		public void WithoutTypePattern()
+		public void WithoutPatternMatching()
 		{
 			var useDeepThought = false;
 			var answer = CalculateTheAnswerToTheUltimateQuestion(useDeepThought);
@@ -19,7 +19,7 @@
 			}
 		}
 
-		public void WithTypePattern()
+		public void WithPatternPatternMatching()
 		{
 			var useDeepThought = false;
 			if (CalculateTheAnswerToTheUltimateQuestion(useDeepThought) is int answer)
